@@ -14,6 +14,7 @@ void UFox_AnimInstance::update() {
 
 	if (player) {
 		//Player_vel = player->
+		Player_vel = player->GetVelocity().X;
 	}
 
 }
